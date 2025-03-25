@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <p class="mb-24 ml-24">Mondays</p>
+            </div>
+            <div class="navigation pb-24">
+                <ul class="navigation-group">
+
+                    <li class="navigation-item">
+                        <span class=""></span>
+                        <a href="" class="navigation-link">
+                            <span class="navigation-option">
+                                <img class="img-icon" src="dashboard.png" />
+                                Dashboard
+                            </span>
+                        </a>
+                    </li>
+
+                    <li class="navigation-item">
+                        <span class=""></span>
+                        <a href="" class="navigation-link ">
+                            <span class="navigation-option">
+                                <img class="img-icon" src="project.png" />
+                                Projects
+                            </span>
+                        </a>
+                    </li>
+
+                    <li class="navigation-item">
+                        <span class="selection-bubble"></span>
+                        <a href="" class="navigation-link selected">
+                            <span class="navigation-option">
+                                <img class="img-icon" src="meal.png" />
+                                Meal Planner
+                            </span>
+                        </a>
+                    </li>
+
+                    <li class="navigation-item">
+                        <span class=""></span>
+                        <a href="" class="navigation-link">
+                            <span class="navigation-option">
+                                <img class="img-icon" src="messages.png" />
+                                Messages
+                            </span>
+                        </a>
+                    </li>
+
+                    <li class="navigation-item">
+                        <span class=""></span>
+                        <a href="" class="navigation-link">
+                            <span class="navigation-option">
+                                <img class="img-icon" src="document.png" />
+                                Documents
+                            </span>
+                        </a>
+                    </li>
+
+                    <li class="navigation-item">
+                        <span class=""></span>
+                        <a href="" class="navigation-link ">
+                            <span class="navigation-option">
+                                <img class="img-icon" src="receipt.png" />
+                                Receipts
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="projects">
+                <h2 class="mt-16 mb-8 pl-24">Projects</h2>
+                <ul class="">
+                    <li class="ml-24">
+                        <a href="" class="project-item">
+                            <span class="mr-8 box-indicator green"></span>
+                            <span class="project-item-text">Event Planning</span>
+                        </a>
+                    </li>
+                    <li class="ml-24">
+                        <a href="" class="project-item">
+                            <span class="mr-8 box-indicator pink"></span>
+                            <span class="project-item-text">Breakfast Plan</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="helpers">
+                <ul>
+                    <li class="navigation-item">
+                        <span class=""></span>
+                        <a href="" class="navigation-link">
+                            <span class="navigation-option">
+                                <img class="img-icon" src="settings.png" />
+                                <span>Settings</span>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li class="navigation-item">
+                        <span class=""></span>
+                        <a href="" class="navigation-link">
+                            <span class="navigation-option">
+                                <img class="img-icon" src="help.png" />
+                                Help & Support
+                            </span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <div class="topbar">
+                <div class="search">
+
+                    <input type="text" class="search-input" placeholder="Search for a meal">
+                    <img class="img-icon search-icon" src="search.png" />
+                    <div class="search-shortcut">⌘F</div>
+                </div>
+                <div class="right-top-bar">
+                    <div style="display: flex; gap:2px">
+                        <button class="btn btn-primary left-half-button"><i class="fa fa-plus" aria-hidden="true"></i>
+                            New Project</button>
+                        <button class="btn btn-primary right-half-button"><i class="fa fa-caret-down"
+                                aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <div style="position:relative;">
+                        <div class="box-indicator green"
+                            style="width:8px;height: 8px;border-radius: 8px; display: block;position:absolute;right:-1px;top:-1px;">
+                        </div>
+                        <img class="img-icon" src="notification.png" />
+                    </div>
+                    <div style="overflow: hidden; width: 32px; height: 32px;border-radius: 32px;">
+                        <img class="profile" style="width:50px;margin-left:-10px;margin-top:-10px;" src="profile.jpg" />
+                    </div>
+                </div>
+            </div>
+            <div class="header">
+                <h2>
+                    <img class="img-icon img-bg mr-8" src="calendar.png" />
+                    <span>Meal Planning</span>
+                    <i class="ml-8 fa fa-chevron-down"
+                                aria-hidden="true"></i>
+                </h2>
+            </div>
+            <nav class="header-navigation">
+                <a href="link" >
+                    <i class="fa fa-line-chart"></i>
+                    Overview
+                </a>
+                <a href="" class="link">
+                    <i class="fa fa-list" aria-hidden="true"></i>
+                    List
+                </a>
+                <a href="" class="link">
+                    <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                    Board
+                </a>
+                <a href="" class="link">
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    Timeline
+                </a>
+                <a href="" class="link">
+                    <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                    Calendar
+                </a>
+                <a href="" class="link">
+                    <i class="fa fa-comment-o" aria-hidden="true"></i>
+                    Messages
+                </a>
+                <a href="" class="link">
+                    <i class="fa fa-folder-o" aria-hidden="true"></i>
+                    Files
+                </a>
+            </nav>
+            <div class="contextual">
+                <div class="add-meal">
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                    <span>Add meal</span>
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </div>
+                <div class="day-selector">
+                    <i class="fa fa-chevron-left"></i>
+                    <span>Today</span>
+                    <i class="fa fa-chevron-right"></i>
+                </div>
+                <div class="recipe-filter">
+                    <div class="selected">Weekly Plan</div>
+                    <div>All Recipies</div>
+                </div>
+            </div>
+            <div class="recipes-list">
+
+                <div class="date">
+                    <p class="day">
+                        Today, 02 Monday
+                    </p>
+                    <span class="count">1</span>
+                    <img src="menu-dots.svg" alt="" class="menu-dots">
+
+                </div>
+                <div class="date">
+                    <p class="day">
+                        03 Monday
+                    </p>
+                    <span class="count">4</span>
+                    <img src="menu-dots.svg" alt="" class="menu-dots">
+                    </div>
+                <div class="date">
+                    <p class="day">
+                        04 Wednesday
+                    </p>
+                    <span class="count">1</span>
+                    <img src="menu-dots.svg" alt="" class="menu-dots">                
+                </div>
+
+
+                <div class="recipes-group">
+                    <div class="recipe-card">
+                        <div class="drag-point">
+                            <img src="drag-dots.svg"/>
+                        </div>
+                        <img class="foodicon" src="food-icon.svg" />
+                        <div class="recipe-info">
+                            <p class="recipe-name">Vegan French Toast</p>
+                            <div class="icon-info">
+                                <div class="num-people txt-img-center subtle"><img class="tiny-img" src="people.svg" /><span>2</span></div>
+                                <div class="prep-time txt-img-center subtle"><img class="tiny-img" src="time.svg" style="width:18px;" /><span>15 min</span></div>
+                            </div>
+                        </div>
+                        <ul class="tags-list">
+                            <li class="breakfast">Breakfast</li>
+                            <li class="eight-min-recipe">8 min recipe</li>
+                        </ul>
+                    </div>
+                    <div class="recipe-card">
+                        <div class="drag-point">
+                            <img src="drag-dots.svg"/>
+                        </div>
+                        <img class="foodicon" src="food-icon.svg" />
+                        <div class="recipe-info">
+                            <p class="recipe-name">French Omelet</p>
+                            <div class="icon-info">
+                                <div class="num-people txt-img-center subtle"><img class="tiny-img" src="people.svg" /><span>2</span></div>
+                                <div class="prep-time txt-img-center subtle"><img class="tiny-img" src="time.svg" style="width:18px;" /><span>15 min</span></div>
+                            </div>
+                        </div>
+                        <ul class="tags-list">
+                            <li class="lunch">Lunch</li>
+                        </ul>
+                    </div>
+                    <div class="recipe-card">
+                        <div class="drag-point">
+                            <img src="drag-dots.svg"/>
+                        </div>
+                        <img class="foodicon" src="food-icon.svg" />
+                        <div class="recipe-info">
+                            <p class="recipe-name">Burger</p>
+                            <div class="icon-info">
+                                <div class="num-people txt-img-center subtle"><img class="tiny-img" src="people.svg" /><span>2</span></div>
+                                <div class="prep-time txt-img-center subtle"><img class="tiny-img" src="time.svg" style="width:18px;" /><span>15 min</span></div>
+                            </div>
+                        </div>
+                        <ul class="tags-list">
+                            <li class="dinner">Dinner</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="recipes-group">
+                    <div class="recipe-card">
+                        <div class="drag-point">
+                            <img src="drag-dots.svg"/>
+                        </div>
+                        <img class="foodicon" src="food-icon.svg" />
+                        <div class="recipe-info">
+                            <p class="recipe-name">Veg Sandwich</p>
+                            <div class="icon-info">
+                                <div class="num-people txt-img-center subtle"><img class="tiny-img" src="people.svg" /><span>2</span></div>
+                                <div class="prep-time txt-img-center subtle"><img class="tiny-img" src="time.svg" style="width:18px;" /><span>15 min</span></div>
+                            </div>
+                        </div>
+                        <ul class="tags-list">
+                            <li class="breakfast">Breakfast</li>
+                        </ul>
+                    </div>
+                    <div class="recipe-card">
+                        <div class="drag-point">
+                            <img src="drag-dots.svg"/>
+                        </div>
+                        <img class="foodicon" src="food-icon.svg" />
+                        <div class="recipe-info">
+                            <p class="recipe-name">Vegan French Toast</p>
+                            <div class="icon-info">
+                                <div class="num-people txt-img-center subtle"><img class="tiny-img" src="people.svg" /><span>2</span></div>
+                                <div class="prep-time txt-img-center subtle"><img class="tiny-img" src="time.svg" style="width:18px;" /><span>15 min</span></div>
+                            </div>
+                        </div>
+                        <ul class="tags-list">
+                            <li class="breakfast">Breakfast</li>
+                            <li class="eight-min-recipe">8 min recipe</li>
+                        </ul>
+                    </div>
+                    <div class="recipe-card">
+                        <div class="drag-point">
+                            <img src="drag-dots.svg"/>
+                        </div>
+                        <img class="foodicon" src="food-icon.svg" />
+                        <div class="recipe-info">
+                            <p class="recipe-name">Fries</p>
+                            <div class="icon-info">
+                                <div class="num-people txt-img-center subtle"><img class="tiny-img" src="people.svg" /><span>2</span></div>
+                                <div class="prep-time txt-img-center subtle"><img class="tiny-img" src="time.svg" style="width:18px;" /><span>15 min</span></div>
+                            </div>
+                        </div>
+                        <ul class="tags-list">
+                            <li class="lunch">Lunch</li>
+                        </ul>
+                    </div>
+                    <div class="recipe-card">
+                        <div class="drag-point">
+                            <img src="drag-dots.svg"/>
+                        </div>
+                        <img class="foodicon" src="food-icon.svg" />
+                        <div class="recipe-info">
+                            <p class="recipe-name">Burger</p>
+                            <div class="icon-info">
+                                <div class="num-people txt-img-center subtle"><img class="tiny-img" src="people.svg" /><span>2</span></div>
+                                <div class="prep-time txt-img-center subtle"><img class="tiny-img" src="time.svg" style="width:18px;" /><span>15 min</span></div>
+                            </div>
+                        </div>
+                        <ul class="tags-list">
+                            <li class="dinner">Dinner</li>
+                        </ul>
+                    </div>
+
+                    
+                </div>
+
+                <div class="recipes-group">
+                    <div class="recipe-card">
+                        <div class="drag-point">
+                            <img src="drag-dots.svg"/>
+                        </div>
+                        <img class="foodicon" src="food-icon.svg" />
+                        <div class="recipe-info">
+                            <p class="recipe-name">Chow Mein</p>
+                            <div class="icon-info">
+                                <div class="num-people txt-img-center subtle"><img class="tiny-img" src="people.svg" /><span>2</span></div>
+                                <div class="prep-time txt-img-center subtle"><img class="tiny-img" src="time.svg" style="width:18px;" /><span>15 min</span></div>
+                            </div>
+                        </div>
+                        <ul class="tags-list">
+                            <li class="breakfast">Breakfast</li>
+                            <li class="eight-min-recipe">15 min recipie</li>
+
+                        </ul>
+                    </div>
+                    <div class="recipe-card">
+                        <div class="drag-point">
+                            <img src="drag-dots.svg"/>
+                        </div>
+                        <img class="foodicon" src="food-icon.svg" />
+                        <div class="recipe-info">
+                            <p class="recipe-name">Sushi</p>
+                            <div class="icon-info">
+                                <div class="num-people txt-img-center subtle"><img class="tiny-img" src="people.svg" /><span>2</span></div>
+                                <div class="prep-time txt-img-center subtle"><img class="tiny-img" src="time.svg" style="width:18px;" /><span>15 min</span></div>
+                            </div>
+                        </div>
+                        <ul class="tags-list">
+                            <li class="lunch">Lunch</li>
+                        </ul>
+                    </div>
+                    <div class="recipe-card">
+                        <div class="drag-point">
+                            <img src="drag-dots.svg"/>
+                        </div>
+                        <img class="foodicon" src="food-icon.svg" />
+                        <div class="recipe-info">
+                            <p class="recipe-name">Paneer Chilli</p>
+                            <div class="icon-info">
+                                <div class="num-people txt-img-center subtle"><img class="tiny-img" src="people.svg" /><span>2</span></div>
+                                <div class="prep-time txt-img-center subtle"><img class="tiny-img" src="time.svg" style="width:18px;" /><span>15 min</span></div>
+                            </div>
+                        </div>
+                        <ul class="tags-list">
+                            <li class="lunch">Lunch</li>
+                        </ul>
+                    </div>
+
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
